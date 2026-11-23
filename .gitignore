@@ -1,0 +1,32 @@
+# ==========================================
+# C# / .NET Core / Visual Studio
+# ==========================================
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# Configurações de Ambiente (Segurança)
+# ==========================================
+# Nunca envie senhas e strings de conexão reais para o GitHub
+appsettings.Development.json
+appsettings.json
+
+# ==========================================
+# Pastas de Uploads / Arquivos Locais
+# ==========================================
+# Se você salvar fotos de funcionários/pastéis localmente no servidor
+uploads/
+*.db
+*.sqlite
+
+# ==========================================
+# Sistema Operacional / IDEs
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
